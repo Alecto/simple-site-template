@@ -108,7 +108,7 @@ a {
 }
 
 .content__title {
-  margin: 0 0 35px;
+  margin: 0 0 33px;
   font-weight: 500;
   font-size: 48px;
   line-height: var(--line-height-lg);
@@ -151,14 +151,14 @@ a {
   align-items: center;
 }
 
-.expirience-item__description {
-  line-height: var(--line-height-lg);
-}
-
-.expirience-item__title {
+.expirience-item__number {
   font-weight: 500;
   font-size: 21px;
   line-height: var(--line-height-sm);
+}
+
+.expirience-item__text {
+  line-height: var(--line-height-lg);
 }
 
 .process__container {
