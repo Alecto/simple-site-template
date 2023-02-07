@@ -79,12 +79,12 @@ a {
 
 .header {
   background-color: var(--color-gray-light);
-  padding-top: 80px;
-  padding-bottom: 140px;
+  padding-top: 76px;
+  padding-bottom: 142px;
 }
 
 .navbar {
-  margin-bottom: 148px;
+  margin-bottom: 144px;
 }
 
 .navbar__list {
@@ -108,7 +108,7 @@ a {
 }
 
 .content__title {
-  margin: 0 0 33px;
+  margin: 0 0 34px;
   font-weight: 500;
   font-size: 48px;
   line-height: var(--line-height-lg);
