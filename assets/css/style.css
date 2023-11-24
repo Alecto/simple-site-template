@@ -166,10 +166,6 @@ a {
   font-size: 1.3125rem; /* 21px */
   font-weight: 500;
 }
-.experience-item__text {
-  /* ! видаляємо, бо заважає PixelPerfect */
-  /* line-height: var(--line-height-lg); */
-}
 .experience-item__image {
   order: -1;
 }
@@ -196,6 +192,6 @@ a {
   font-weight: 500;
 }
 .footer__copyright {
-  font-size: 0.8125; /* 13px */
+  font-size: 0.8125rem; /* 13px */
   line-height: var(--line-height-lg);
 }
