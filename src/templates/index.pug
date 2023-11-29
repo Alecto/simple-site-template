@@ -11,59 +11,6 @@ html(lang="en")
     link(rel="stylesheet", href="assets/css/style.css")
   body
 
-    header.header
-      div.container
-
-        nav.navbar
-          div.navbar__btn
-            - for (let i = 0; i < 3; i++)
-              span.navbar__btn-row
-          ol.navbar__list
-            li.navbar__item
-              a.navbar__link(href="") ГЛАВНАЯ
-            li.navbar__item
-              a.navbar__link(href="") ОБ АВТОРЕ
-            li.navbar__item
-              a.navbar__link(href="") РАБОТЫ
-            li.navbar__item
-              a.navbar__link(href="") ПРОЦЕСС
-            li.navbar__item
-              a.navbar__link(href="") КОНТАКТЫ
-
-        div.content
-          h1.content__title Дизайн и верстка
-          p.content__description Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-          a.content__link(href="") НАПИСАТЬ МНЕ
-
-    main
-      section.about.section
-        div.container.container--sm
-          h2.about__title.section__title Обо мне
-          p.about__description.section__description Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-
-      section.experience
-        div.container
-          h2.experience__title.visually-hidden My experience
-          div.experience__container
-            - for (let i = 0; i < 6; i++)
-              div.experience-item
-                div.experience-item__description
-                  p.experience-item__number 40+
-                  p.experience-item__text проектов
-                div.experience-item__image
-                  img(src="assets/images/Group.svg", alt="")
-
-      section.process.section
-        div.container.container--sm
-          h2.process__title.section__title Как я работаю
-          p.process__description.section__description Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-
-      section.video
-        div.container
-          h2.video__title.visually-hidden My video title
-          iframe.video__iframe(width="560", height="315", src="https://www.youtube.com/embed/QmjA2L7_Dgw?si=yE9ajUYzCBMKRViB", title="YouTube video player", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", allowfullscreen)
-
-    footer.footer
-      div.container
-        div.footer__name Иванов Иван
-        div.footer__copyright (с) 2018. Все права защищены.
+    include header
+    include main
+    include footer

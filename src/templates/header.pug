@@ -1,0 +1,23 @@
+header.header
+  div.container
+
+    nav.navbar
+      div.navbar__btn
+        - for (let i = 0; i < 3; i++)
+          span.navbar__btn-row
+      ol.navbar__list
+        li.navbar__item
+          a.navbar__link(href="") ГЛАВНАЯ
+        li.navbar__item
+          a.navbar__link(href="") ОБ АВТОРЕ
+        li.navbar__item
+          a.navbar__link(href="") РАБОТЫ
+        li.navbar__item
+          a.navbar__link(href="") ПРОЦЕСС
+        li.navbar__item
+          a.navbar__link(href="") КОНТАКТЫ
+
+    div.content
+      h1.content__title Дизайн и верстка
+      p.content__description Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+      a.content__link(href="") НАПИСАТЬ МНЕ
