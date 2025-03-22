@@ -4,156 +4,173 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Simple Template</title>
   <link href="assets/css/normalize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="favicon.svg" rel="icon">
+  <title>Simple Site</title>
 </head>
 
 <body>
 
+  <!-- header -->
   <header class="header">
-    <div class="container"><!-- container -->
+    <!-- container -->
+    <div class="container">
 
+      <!-- navbar -->
       <nav class="navbar">
-        <ol class="navbar__list">
+        <ul class="navbar__list">
           <li class="navbar__item">
-            <a class="navbar__link navbar__link--active" href="">HOME</a>
+            <a class="navbar__link navbar__link--active" href="#">Home</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="">ABOUT</a>
+            <a class="navbar__link" href="#">About</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="">WORKS</a>
+            <a class="navbar__link" href="#">Works</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="">PROCESS</a>
+            <a class="navbar__link" href="#">Process</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="">CONTACTS</a>
+            <a class="navbar__link" href="#">Contacts</a>
           </li>
-        </ol>
-      </nav>
+        </ul>
+      </nav><!-- navbar end -->
 
-      <div class="content">
-        <h1 class="content__title">Design and Layout</h1>
-        <p class="content__description">Lorem Ipsum is a placeholder text commonly used in printing and web
-          <br>design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
-        </p>
-        <a class="content__link" href="">WRITE TO ME</a>
-      </div>
+      <!-- hero -->
+      <div class="hero">
+        <h1 class="hero__title">Design and Layout</h1>
 
+        <p class="hero__description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.</p>
+
+        <a class="hero__button" href="">Write to me</a>
+      </div><!-- hero end -->
     </div><!-- container end -->
-  </header>
+  </header><!-- header end -->
 
+  <!-- main -->
   <main class="main">
+
     <!-- about -->
     <section class="about section">
-      <div class="container container--sm">
+      <!-- container-sm -->
+      <div class="container-sm">
         <h2 class="about__title section__title">About Me</h2>
-        <p class="about__description section__description">Lorem Ipsum is a placeholder text commonly used in printing and web
-          <br>design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
-        </p>
-      </div>
-    </section>
+        <p class="about__description section__description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.</p>
+      </div><!-- container-sm end -->
+    </section><!-- about end -->
 
+    <!-- experience -->
     <section class="experience">
+      <!-- container -->
       <div class="container">
         <h2 class="experience__title visually-hidden">My experience</h2>
+
+        <!-- experience__container -->
         <div class="experience__container">
 
           <div class="experience-item">
             <div class="experience-item__description">
               <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
+              <p class="experience-item__label">projects</p>
             </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
-            </div>
-          </div>
-
-          <div class="experience-item">
-            <div class="experience-item__description">
-              <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
-            </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
             </div>
           </div>
 
           <div class="experience-item">
             <div class="experience-item__description">
               <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
+              <p class="experience-item__label">projects</p>
             </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
-            </div>
-          </div>
-
-          <div class="experience-item">
-            <div class="experience-item__description">
-              <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
-            </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
             </div>
           </div>
 
           <div class="experience-item">
             <div class="experience-item__description">
               <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
+              <p class="experience-item__label">projects</p>
             </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
             </div>
           </div>
 
           <div class="experience-item">
             <div class="experience-item__description">
               <p class="experience-item__number">40+</p>
-              <p class="experience-item__text">projects</p>
+              <p class="experience-item__label">projects</p>
             </div>
-            <div class="experience-item__image">
-              <img alt="group" src="assets/images/Group.svg">
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
             </div>
           </div>
 
-        </div>
-      </div>
-    </section>
+          <div class="experience-item">
+            <div class="experience-item__description">
+              <p class="experience-item__number">40+</p>
+              <p class="experience-item__label">projects</p>
+            </div>
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-item__description">
+              <p class="experience-item__number">40+</p>
+              <p class="experience-item__label">projects</p>
+            </div>
+            <div class="experience-item__picture">
+              <img class="experience-item__image" alt="project" src="assets/images/project.svg">
+            </div>
+          </div>
+
+        </div><!-- experience__container end -->
+
+      </div><!-- container end -->
+    </section><!-- experience end -->
 
     <!-- process -->
     <section class="process section">
-      <div class="container container--sm">
+      <!-- container-sm -->
+      <div class="container-sm">
         <h2 class="process__title section__title">How I Work</h2>
-        <p class="process__description section__description">Lorem Ipsum is a placeholder text commonly used in printing and web
-          <br>design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.
-        </p>
-      </div>
-    </section>
+        <p class="process__description section__description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.</p>
+      </div><!-- container-sm end -->
+    </section><!-- process end -->
 
     <!-- video -->
     <section class="video">
+      <!-- container -->
       <div class="container">
-        <h2 class="video__title visually-hidden">My video</h2>
-        <iframe class="video__iframe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/UvMy6mSt-V8?si=r7KF09MlWcHwNlOF" title="YouTube video player" width="560"></iframe>
-      </div>
-    </section>
+        <h2 class="video__title visually-hidden">Video</h2>
+        <iframe class="video__iframe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                height="315" referrerpolicy="strict-origin-when-cross-origin"
+                src="https://www.youtube.com/embed/5kpva4j7jm0?si=Zu5FaZbeTX45i0Sz"
+                title="YouTube video player" width="560"></iframe>
+      </div><!-- container end -->
+    </section><!-- video end -->
+  </main><!-- main end -->
 
-  </main>
-
+  <!-- footer -->
   <footer class="footer">
+    <!-- container -->
     <div class="container">
-      <div class="footer__name">Ostap Ivanenko</div>
-      <div class="footer__copyright">© 2018. All rights reserved.</div>
-    </div>
-  </footer>
+      <div class="footer__title">Ostap Ivanenko</div>
+      <div class="footer__description">© 2018. All rights reserved.</div>
+    </div><!-- container end -->
+  </footer><!-- footer end -->
 
 </body>
 
