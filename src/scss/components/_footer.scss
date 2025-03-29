@@ -1,19 +1,22 @@
-@use "../../presets" as *;
+@use "../presets" as *;
+@use "../mixins" as *;
 
-/* footer */
+/* Footer */
 .footer {
-  padding: $gap 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   color: $color-white;
   background-color: $color-primary;
 
-  &__name {
+  &__title {
+    margin-bottom: 3px;
+
     font-size: 1.3125rem; /* 21px */
     font-weight: 500;
   }
 
-  &__copyright {
+  &__description {
     font-size: 0.8125rem; /* 13px */
-    line-height: $line-height-lg;
   }
 }

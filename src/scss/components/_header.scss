@@ -1,0 +1,16 @@
+@use '../presets' as *;
+@use '../mixins' as *;
+
+/* Header section */
+.header {
+  padding-top: 69px;
+
+  background-color: $color-gray-light;
+
+  @include lg-min {
+    padding-bottom: 141px;
+  }
+  @include lg {
+    padding-bottom: 80px;
+  }
+}

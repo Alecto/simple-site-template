@@ -1,46 +1,32 @@
-@use "../../presets" as *;
+@use '../presets' as *;
+@use '../mixins' as *;
 
-/* content */
-.content {
+/* Hero */
+.hero {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 
-  max-width: 540px;
+  max-width: $container-secondary;
 
-  gap: 30px;
-
-  @media (max-width: 768px) {
+  @include sm() {
     align-items: center;
-
-    max-width: 100%;
 
     text-align: center;
   }
 
   &__title {
-    margin: 0 0 4px;
-
-    color: $color-black;
-
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: $line-height-lg;
-
-    @media (max-width: 991.8px) {
-      line-height: $line-height;
-    }
+    margin-top: 0;
+    margin-bottom: 38px;
   }
 
   &__description {
-    margin-bottom: 26px;
+    margin-bottom: 57px;
 
     color: $color-secondary;
-
-    line-height: $line-height-lg;
   }
 
-  &__link {
+  &__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +36,7 @@
     padding: 0.5em;
 
     letter-spacing: $letter-spacing;
+    text-transform: uppercase;
 
     color: $color-white;
     background-color: $color-primary;
